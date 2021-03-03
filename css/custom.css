@@ -1,0 +1,152 @@
+
+
+body{
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+  font-weight: bold;
+ 
+}
+
+.headerlogo{
+  
+  float: left;
+  margin-right: 40px;
+}
+
+
+#mainHeader{
+  height: 100px;
+}
+
+
+#headername{
+  font-size: 30px;
+  color:white;
+  padding: 15px;
+  margin: 8px 20px 13px 34px;
+  font-weight: bold;
+}
+
+
+
+#welcomeimage{
+  float: left;
+ 
+}
+
+#welcomeimage > img{
+  width: max-content;
+  margin-top:0px;
+  height: 500px;
+}
+
+
+.navbar-header{
+  height: 75px;
+   
+}
+
+.navbar-brand > img{
+  height: 50px;
+  
+}
+
+.search{
+  margin-top: 10px;
+}
+
+
+
+#get-involved{
+  margin-top: 9rem;
+}
+
+
+footer{
+  clear: both;
+  width: 100%;
+  background-color: #5c5045;
+  margin: 20px 0px 20px;
+  padding: 5px;
+}
+
+nav{
+height: 45px;
+width: 100%;
+margin-bottom: 5px;
+margin-top: 40px;
+padding-left: 5px;
+}
+
+nav ul{
+  list-style: none;
+  padding:0px ;
+}
+
+nav ul li{
+  display: block;
+}
+
+.backgroungradient{
+ background: #603813;
+ height: 50px;
+}
+
+.navlink{
+      height:35px;
+      margin-left: 10PX;
+      font-size: 18px;
+      float:left;
+      padding-top: 12px;
+      color: white;
+      text-decoration: none;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+.footer {
+  /*position: absolute;*/
+  bottom: 0;
+  width: 1024px;
+  /* Set the fixed height of the footer here */
+  height: 260px;
+  
+}
+
+/* 
+table{
+  position: absolute;
+  left: 50%;
+  top: ;
+  transform: translate(-50%,-50%);
+  border-collapse: collapse;
+  width: 800px;
+  height: 200px;
+  border: 1px solid #bcdfbc;
+  box-shadow: 2px 2px 12px rgba(red, green, blue, alpha),-1px 8px rgba(0,0,0,0);
+
+
+
+}
+
+tr{
+
+  transition: all .2s ease-in;
+  cursor: pointer
+  ;
+
+}
+
+td,th{
+  padding: 12px;
+  text-align:left;
+  border-bottom: 1px solid black;
+  margin: 5px;
+     
+} */
+

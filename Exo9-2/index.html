@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Cache-control" content="no-cache">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+
+  <title>Bish Bosh 2.0 </title>
+</head>
+
+<body>
+  <h1>Bish Bosh 2.0 </h1>
+  <h4>How to use:</h4>
+  <p>The user enters a low number (A) and a higher number (B), and another number as a higher limit, and the program
+    will print Bish for all numbers divisible by A, Bash for all numbers divisible by B, and Bish-Bash for all numbers
+    divisible by both A and B util the limit number is reached. If the number is not divisible with neither A, B , A*B,
+    the program will print the number.The number has to be a positive number!</p>
+  <div class="container">
+
+    <div>
+        <h2 id="error"></h2>
+    </div>
+
+    <div>
+      <label for="bish">Enter a number (Bish)</label>
+      <input type="number" id='bish' placeholder="Enter a number">
+      <br>
+      <label for="bosh">Enter a number (Bash)</label>
+      <input id='bosh' type="number" placeholder="Enter a number">
+      <br>
+      <label for="bosh">Enter a limit number</label>
+      <input id='limit' type="number" placeholder="Enter a number">
+      <br>
+      <br>
+      <button type="submit" id="btn">Generate</button>
+    </div>
+    
+    <h4>Below are the prints of this exercise:</h4>
+
+    <div id="list-group">
+      <ul id="list">
+
+      </ul>
+    
+    </div>
+
+    <div>
+      <button id="clear">Clear</button>
+    </div>
+
+  </div>
+
+  <footer>Mike Sanoh | Lexicon Project</footer>
+
+  <script type="text/javascript" src="bishbosh.js"></script>
+
+</body>
+
+</html>
