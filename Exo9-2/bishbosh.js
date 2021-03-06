@@ -4,7 +4,6 @@ const bishInput = document.querySelector('#bish');
 const boshInput = document.querySelector('#bosh');
 const limitInput = document.querySelector('#limit');
 const buttonInput = document.querySelector('#btn');
-const paraInput = document.querySelector('#para');
 const listDiv = document.querySelector('#list-group');
 const body = document.querySelector('#body');
 
@@ -43,7 +42,7 @@ function CalculateBishBosh(x,y,z){
     } else 
     {
     
-      for(let i = 1; i < z; i++)
+      for(let i = 1; i <=z; i++)
       {
         if(i % x === 0 && i%y === 0){
           const li = document.createElement("li")
@@ -76,11 +75,17 @@ function CalculateBishBosh(x,y,z){
 
 
 function Clear(){
-  document.querySelector('#bish').setAttribute("value", "");
+  document.querySelector('#bish').value="";
   
-  document.querySelector('#bosh').setAttribute("value", "");
+  document.querySelector('#bosh').value="";
   
-  document.querySelector('#limit').setAttribute("value", "");
+  document.querySelector('#limit').value="";
+  
+  document.querySelector('#error').innerHTML="";
+
+  document.querySelector('#list').innerHTML = "";
+
+
 }
 
  
